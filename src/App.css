@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+body{
+  background-color: #F8F4EA;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.image{
+  width: 100%;
+  height: 15rem;
+  border-radius: 1rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.all{
+  margin:0 auto ;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header{
+  font-family: 'Anton', sans-serif;
+  font-size: 5rem;
+  color: #850000;
+}
+.flex{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-around;
+  
+}
+.flex button{
+  background-color: #850000;
+  color: #F8F4EA;
+  border: 2px solid #850000;
+  padding: 0.5rem;
+  border-radius: 20px;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+  font-size:0.9rem ;
+}
+.flex button:hover{
+  background-color: #fc0404;
+  border: 2px solid #fc0404;
+}
+.flex button a{
+  text-decoration: none;
+  color: #F8F4EA;
+}
+.nextnews{
+  height: 50%;
+}
+.cardtitle{
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.desc{
+  margin-left: 1.5rem;
+}
+.imgdiv{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.center{
+  display: flex;
+  justify-content: center;
 }
